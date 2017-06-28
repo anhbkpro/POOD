@@ -22,7 +22,7 @@ namespace SRP.Model
 
         public override void Checkout()
         {
-            _paymentProcessor.ProcessCreditCard(_paymentDetails, _cart.TotalAmount);
+            _paymentProcessor.ProcessCreditCard(_paymentDetails, _cart.TotalAmount());
 
             _reservationService.ReserveInventory(_cart.Items);
 
