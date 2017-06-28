@@ -9,7 +9,7 @@ namespace SRP.Services
         {
             var shapes = new List<Shape>
             {
-                 new Rectangle{ Height = 4, Width = 5 },
+                 new Rectangle { Height = 4, Width = 5 },
                  new Square {SideLength = 3}
             };
             
