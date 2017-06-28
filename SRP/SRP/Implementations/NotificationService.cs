@@ -1,12 +1,18 @@
-﻿using System;
+﻿using SRP.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SRP.Model;
 
-namespace SRP.Implementation
+namespace SRP.Implementations
 {
-    class NotificationService
+    class NotificationService : INotificationService
     {
+        public void NotifyCustomerOrderCreated(Cart cart)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

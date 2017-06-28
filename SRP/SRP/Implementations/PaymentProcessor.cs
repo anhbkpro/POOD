@@ -4,7 +4,7 @@ using SRP.Model;
 
 namespace SRP.Implementations
 {
-    internal class PaymentProcessor : IPaymentProcessor
+    public class PaymentProcessor : IPaymentProcessor
     {
         public void ProcessCreditCard(PaymentDetails paymentDetails, decimal amount)
         {
